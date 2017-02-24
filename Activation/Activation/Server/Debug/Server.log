@@ -1,0 +1,3 @@
+﻿  Server.cpp
+c:\users\fraleya14\downloads\activation\activation\server\server.cpp(139): warning C4018: '<': signed/unsigned mismatch
+  Server.vcxproj -> C:\Users\fraleya14\Downloads\Activation\Activation\Debug\Server.exe

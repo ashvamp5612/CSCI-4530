@@ -1,0 +1,161 @@
+4530 Internet Checksum Assignment
+
+Please note that you will only be able to submit this 
+assignment ONCE. You need to double-check the answers 
+that you have entered before you click the submit button.
+
+It is HIGHLY recommended that you print out a copy of 
+this page, do the assignment, filling in your answers 
+on paper, and once you are satisfied with your results 
+then come back to this page, type in your answers and 
+submit.  Working in this manner should help prevent any 
+potential problems which could be encountered by keeping 
+your browser on this page for too long of a period of time. 
+
+
+
+Part 1:
+
+Using the Internet Checksum algorithm, calculate the checksum which 
+would be added to the end of the following bytes of data: 
+
+
+5AD8 + 673B + DCA8 + 4F12 + F478 + 0B5D = 2 EDA2
+0002 + EDA2 = EDA4
+1.) 125B
+
+
+
+F59F + 535F = 0001 48FE 
+0001 48FE + 803A = 0001 C938
+0001 C938 + 511C = 0002 1A54 
+0002 + 1A54 = 1A56
+2.) E5A9
+
+
+
+53DB + 2832 = 7C0D
+7C0D + 77DB = F3E8
+F3E8 + 66CB = 15AB3
+15AB3 + E888 = 2433B
+2433B + EDA2 = 0003 30DD
+0003 + 30DD = 30E0
+3.) CF1F
+
+
+5D6C + 2288 = 7FF4
+7FF4 + B743 = 13737
+13737 + 116D = 148A4
+148A4 + 3400 = 17CA4
+17CA4 + B589 = 2322D
+2322D + B5CE = 2E7FB
+2E7FB + EB51 = 0003 D34C
+0003 + D34C = D34F
+4.) 2CB0
+
+
+3470 + 94B9 = C929
+C929 + 848B = 1 4DB4
+1 4DB4 + 13AA = 1 615E
+1 615E + 3173 = 1 92D1
+1 92D1 + AB29 = 2 3DFA
+0002 + 3DFA = 3DFC
+5.) C203
+
+
+8370 + C302 = 1 4672
+1 4672 + 41E7 = 1 8859
+1 8859 + 3CF7 = 1 C550
+1 C550 + 820E = 2 475E
+0002 + 475E = 4760
+6.) B89F
+
+
+321E + DB73 = 0001 + 0D91 = 0D92
+7.) F26D
+
+
+C10D + 7B79 = 13C86
+13C86 + 4753 = 183D9
+183D9 + 7C0D = 1FFE6
+1FFE6 + 39D9 = 239BF 
+239BF + E00F = 319CE
+0003 + 19CE = 19D1
+8.) E62E
+
+
+86D0 + 6543 = EC13
+EC13 + A47D = 19090
+19090 + 44C5 = 1D555
+1D555 + B38C = 288E1
+288E1 + 0414 = 28CF5
+28CF5 + A8B2 = 335A7 
+335A7 + 628A = 39831
+0003 + 9831 = 9834
+9.) 67CB
+
+
+66B0 + 9F01 = 105B1
+105B1 + 6F65 = 17516
+17516 + 30B0 = 1A5C6
+1A5C6 + 482F = 1EDF5
+0001 + EDF5 = EDF6
+10.) 1209
+
+
+
+
+Part 2:
+
+For each of the following, use the Internet Checksum 
+algorithm to determine whether or not there is an 
+error in the data.
+
+
+CFC8 + 6806 + 2C18 + FC3D + A4EE + 795D + 2EE3 + 0D80 + 5E2B = 418FC
+0004 + 18FC = 1900
+11.) Error
+
+
+B51A + 83B2 + 7230 + 6FDC + 166A + 3493 + AE28 = 3 13FD
+0003 + 13FD = 1400
+12.) Error
+
+
+35EA + 24FE + E890 + B525 + 2D61 = 2 25FE
+0002 + 25FE = 2600
+13.) Error
+
+
+8671 + 1E62 + E4BA + 4BA9 + 8ED8 + 3215 + F6D5 + BD3B + E9C8 = 5 33FB
+0005 + 33FB = 3400
+14.) Error
+
+
+981E + 0FDC + D423 + 5C78 + 7C0F + E859 = 3 3CFD
+0003 + 3CFD = 3D00
+15.) Error
+
+
+5085 + DEFE + BEB4 + 857A + 48B1 + BE78 + BA22 = 4 34FC
+0004 + 34FC = 3500
+16.) Error
+
+
+282B + 54D0 + 5275 + 308F = FFFF
+17.) No Error
+
+
+6194 + 4A3E + 8842 + CF9A + A3E3 + 94FA + 70F7 + 717A = 4 1EFC
+0004 + 1EFC = 1F00
+18.) Error
+
+
+61F5 + 136C + 5063 + 4E3B = 1 13FF
+0001 + 13FF = 1400
+19.) Error
+
+
+7D51 + BA1B + A229 + 5469 = 2 2DFE
+0002 + 2DFE = 2E00
+20.) Error
